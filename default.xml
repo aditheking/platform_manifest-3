@@ -25,7 +25,7 @@
   <project path="external/boringssl" name="platform_external_boringssl" remote="yu-aosp-n" groups="pdk" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="yu-aosp-n" groups="pdk" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="yu-aosp-n" groups="pdk" />
-  <project path="frameworks/base" name="platform_frameworks_base-1"  remote="yu-aosp-n" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="platform_frameworks_base"  remote="yu-aosp-n" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="yu-aosp-n" groups="pdk" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="yu-aosp-n" groups="pdk" />
