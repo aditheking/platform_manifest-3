@@ -11,9 +11,9 @@
            fetch="https://github.com/yu-aosp-n"
            revision="refs/heads/n" />
            
-  <remote  name="github"
-           fetch="https://github.com"
-           revision="refs/heads/cm-13.0" />
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod"
+           revision="refs/heads/staging/cm-14.0" />
 
 <!-- BEGIN YU-AOSP-N -->  
   <project path="build" name="platform_build" remote="yu-aosp-n" revision="n-new" groups="pdk,tradefed" >
@@ -24,12 +24,15 @@
   <project path="external/elfutils" name="platform_external_elfutils" remote="yu-aosp-n" groups="pdk" />
   <project path="external/boringssl" name="platform_external_boringssl" remote="yu-aosp-n" groups="pdk" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="yu-aosp-n" groups="pdk" />
+  <project path="external/fuse" name="platform_external_fuse" remote="yu-aosp-n" groups="pdk" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="yu-aosp-n" groups="pdk" />
   <project path="frameworks/base" name="platform_frameworks_base"  remote="yu-aosp-n" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="yu-aosp-n" groups="pdk" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="yu-aosp-n" groups="pdk" />
+  <project path="hardware/ril-caf" name="platform_hardware_ril" remote="yu-aosp-n" revision="n-caf" groups="pdk" />
   <project path="libcore" name="platform_libcore" remote="yu-aosp-n" groups="pdk" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="yu-aosp-n" groups="pdk-fs" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="yu-aosp-n" groups="pdk-cw-fs,pdk-fs" />
@@ -41,20 +44,22 @@
 <!-- END YU-AOSP-N -->  
   
 <!-- BEGIN CYANOGENMOD -->    
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8916" remote="github" />
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8916" remote="github" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8916" remote="github" />
+  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="cm" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="cm" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" revision="staging/cm-14.0-caf" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0-8916-caf" remote="cm" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="cm" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/cm-14.0-8916-caf remote="cm" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="cm" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="cm" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="cm" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="staging/cm-14.0-caf" remote="cm" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-8916-caf" remote="cm" />
 <!-- END CYANOGENMOD -->  
 
 <!-- BEGIN AOSP -->  
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -382,10 +387,7 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -531,6 +533,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
-    <!-- END AOSP -->
+  <!-- END AOSP -->
 
 </manifest>
