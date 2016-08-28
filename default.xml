@@ -44,7 +44,7 @@
 <!-- END YU-AOSP-N -->  
   
 <!-- BEGIN CYANOGENMOD -->    
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="cm" />
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="cm" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" revision="staging/cm-14.0-caf" />
