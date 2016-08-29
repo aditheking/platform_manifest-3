@@ -43,7 +43,7 @@
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="yu-aosp-n" />
 <!-- END YU-AOSP-N -->  
   
-<!-- BEGIN CYANOGENMOD -->    
+<!-- BEGIN CYANOGENMOD -->
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="cm" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" />
@@ -56,6 +56,9 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="cm" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="staging/cm-14.0-caf" remote="cm" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-8916-caf" remote="cm" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" revision="staging/cm-14.0" remote="cm" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" revision="staging/cm-14.0" remote="cm" />
+  <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" revision="staging/cm-14.0" remote="cm" />
 <!-- END CYANOGENMOD -->  
 
 <!-- BEGIN AOSP -->  
