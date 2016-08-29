@@ -31,6 +31,7 @@
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="yu-aosp-n" groups="pdk" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="yu-aosp-n" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/ril-caf" name="platform_hardware_ril" remote="yu-aosp-n" revision="n-caf" groups="pdk" />
   <project path="libcore" name="platform_libcore" remote="yu-aosp-n" groups="pdk" />
@@ -53,7 +54,6 @@
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/cm-14.0-8916-caf" remote="cm" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="cm" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="cm" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="cm" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="staging/cm-14.0-caf" remote="cm" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-8916-caf" remote="cm" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" revision="staging/cm-14.0" remote="cm" />
