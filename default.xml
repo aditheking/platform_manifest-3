@@ -34,7 +34,7 @@
   <project path="hardware/ril" name="platform_hardware_ril" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/ril-caf" name="platform_hardware_ril" remote="yu-aosp-n" revision="n-caf" groups="pdk" />
   <project path="libcore" name="platform_libcore" remote="yu-aosp-n" groups="pdk" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="yu-aosp-n" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="yu-aosp-n" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="yu-aosp-n" groups="pdk-fs" />
   <project path="system/core" name="platform_system_core" remote="yu-aosp-n" groups="pdk" />
   <project path="system/extras" name="platform_system_extras" remote="yu-aosp-n"  groups="pdk" />
@@ -451,7 +451,7 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
