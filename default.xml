@@ -16,18 +16,24 @@
            revision="refs/heads/staging/cm-14.0" />
 
 <!-- BEGIN YU-AOSP-N -->  
-  <project path="build" name="platform_build" remote="yu-aosp-n" revision="n-new" groups="pdk,tradefed" >
+  <project path="build" name="platform_build" remote="yu-aosp-n" revision="n" groups="pdk,tradefed" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="platform_art" remote="yu-aosp-n" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="yu-aosp-n" groups="pdk" />
+  <project path="external/curl" name="platform_external_curl" remote="yu-aosp-n" />
+  <project path="device/qcom/common" name="platform_device_qcom_common" remote="yu-aosp-n" />
+  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="yu-aosp-n" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="yu-aosp-n" groups="pdk" />
+  <project path="external/okhttp" name="platform_external_okhttp" remote="yu-aosp-n" />
   <project path="external/boringssl" name="platform_external_boringssl" remote="yu-aosp-n" groups="pdk" />
+  <project path="external/iproute2" name="platform_external_iproute2" remote="yu-aosp-n" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="yu-aosp-n" groups="pdk" />
   <project path="external/fuse" name="platform_external_fuse" remote="yu-aosp-n" groups="pdk" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="yu-aosp-n" groups="pdk" />
   <project path="frameworks/base" name="platform_frameworks_base"  remote="yu-aosp-n" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="yu-aosp-n" groups="pdk" />
+  <project path="platform/frameworks/opt/chips" name="platform_frameworks_opt_chips" remote="yu-aosp-n" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="yu-aosp-n" groups="pdk" />
@@ -129,7 +135,6 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" />
-  <project path="external/curl" name="platform/external/curl" />
   <project path="external/dagger2" name="platform/external/dagger2" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dbus-binding-generator" name="platform/external/dbus-binding-generator" />
@@ -179,7 +184,6 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
-  <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
@@ -275,7 +279,6 @@
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv3" name="platform/external/opencv3" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
@@ -348,7 +351,6 @@
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs,pdk-fs" />
@@ -516,7 +518,6 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
