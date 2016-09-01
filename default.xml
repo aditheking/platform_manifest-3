@@ -23,7 +23,7 @@
   <project path="bionic" name="platform_bionic" remote="yu-aosp-n" groups="pdk" />
   <project path="external/curl" name="platform_external_curl" remote="yu-aosp-n" />
   <project path="device/qcom/common" name="platform_device_qcom_common" remote="yu-aosp-n" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="yu-aosp-n" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="yu-aosp-n" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="yu-aosp-n" groups="pdk" />
   <project path="external/okhttp" name="platform_external_okhttp" remote="yu-aosp-n" />
   <project path="external/boringssl" name="platform_external_boringssl" remote="yu-aosp-n" groups="pdk" />
