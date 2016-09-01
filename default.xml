@@ -44,6 +44,7 @@
   <project path="hardware/ril" name="platform_hardware_ril" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/ril-caf" name="platform_hardware_ril" remote="yu-aosp-n" revision="n-caf" groups="pdk" />
   <project path="libcore" name="platform_libcore" remote="yu-aosp-n" groups="pdk" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="yu-aosp-n" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="yu-aosp-n" groups="pdk-fs" />
@@ -448,7 +449,6 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
