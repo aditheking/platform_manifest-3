@@ -30,6 +30,7 @@
   <project path="external/okhttp" name="platform_external_okhttp" remote="yu-aosp-n" />
   <project path="external/boringssl" name="platform_external_boringssl" remote="yu-aosp-n" groups="pdk" />
   <project path="external/iproute2" name="platform_external_iproute2" remote="yu-aosp-n" />
+  <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk" remote="yu-asop-n" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="yu-aosp-n" groups="pdk" />
   <project path="external/fuse" name="platform_external_fuse" remote="yu-aosp-n" groups="pdk" />
   <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="yu-aosp-n" />
@@ -196,7 +197,6 @@
   <project groups="pdk,qcom_msm8x26" name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" revision="e9f6b1c7f914c87661cecd99f954204a4415e0d4" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk" name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns" revision="d7759006d2d024a83fca1a14d665633edf926ff0" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk" name="platform/external/icu" path="external/icu" revision="2ad8d4ea059551079547e59acaa30db2a2a8f1c2" upstream="LA.UM.5.5_rb1.10"/>
-  <project groups="pdk" name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="8116a3ddb08abf5f996a12c11b389dc814714f84" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk" name="platform/external/iptables" path="external/iptables" revision="ab25355e52f24fb3f40d131592ae364438ae1721" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk" name="platform/external/iputils" path="external/iputils" revision="fcefb48700dbb529990076e5c2729d66f23d8f94" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk" name="platform/external/iw" path="external/iw" revision="2af129ead0104bc925504169300945e26bd6ccb9" upstream="LA.UM.5.5_rb1.10"/>
