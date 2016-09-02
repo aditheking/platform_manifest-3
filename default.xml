@@ -518,6 +518,7 @@
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="9c5df24ad197ac61d0bf30a1e32a15ee0b097408" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="1e0719ef31f2af46ff8dab164e7690258091a29a" upstream="LA.UM.5.5_rb1.10"/>
   <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony" revision="57bef27439c2f547aecfb9ceca293b0ad8135575" upstream="LA.UM.5.5_rb1.10"/>
+  <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" revision="de54ab62e0b3ef36d9c9c842a81e1e42176da020" upstream="LA.UM.5.5_rb1.10"/>
   <project name="toolchain/binutils" revision="edd2dff23373691ae99fe7b0643ec9632bcfe692" upstream="LA.UM.5.5_rb1.10"/>
 
 <!-- End Code Aurora Forum -->
