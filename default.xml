@@ -41,8 +41,6 @@
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="yu-aosp-n" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="yu-aosp-n" groups="pdk" />
-  <project path="hardware/ril-caf" name="platform_hardware_ril" remote="yu-aosp-n" revision="n-caf" groups="pdk" />
   <project path="libcore" name="platform_libcore" remote="yu-aosp-n" groups="pdk" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
@@ -69,6 +67,8 @@
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="staging/cm-14.0-caf" remote="cm" />
   <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="cm" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-caf-8916" remote="cm" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="cm" groups="pdk" />
+  <project path="hardware/ril-caf" name="platform_hardware_ril" remote="cm" revision="staging/cm-14.0-caf" groups="pdk" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="cm" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="cm" />
