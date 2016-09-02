@@ -32,7 +32,7 @@
   <project path="external/iproute2" name="platform_external_iproute2" remote="yu-aosp-n" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="yu-aosp-n" groups="pdk" />
   <project path="external/fuse" name="platform_external_fuse" remote="yu-aosp-n" groups="pdk" />
-  <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="yu-asop-n" />
+  <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="yu-aosp-n" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="yu-aosp-n" groups="pdk" />
   <project path="frameworks/base" name="platform_frameworks_base"  remote="yu-aosp-n" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="yu-aosp-n" revision="n-new" groups="pdk" />
