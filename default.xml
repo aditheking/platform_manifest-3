@@ -44,7 +44,7 @@
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="yu-aosp-n" />
   <project path="libcore" name="platform_libcore" remote="yu-aosp-n" groups="pdk" />
   <project path="packages/apps/Bluetooth" path="platform_packages_apps_Bluetooth"  groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote"yu-aosp-n" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="yu-aosp-n" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="yu-aosp-n" groups="pdk-cw-fs,pdk-fs" />
