@@ -43,6 +43,7 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="yu-aosp-n" />
   <project path="libcore" name="platform_libcore" remote="yu-aosp-n" groups="pdk" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote"yu-aosp-n" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="yu-aosp-n" groups="pdk-cw-fs,pdk-fs" />
@@ -405,7 +406,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="89703ddeb050ce3f7163948574e1152fbd949ff7" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="a8a1c073a31c074df0bfdfcf79afd1e6b34cf16b" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk-fs" name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" revision="c6177c1b3f6d6414364f21496030df441f2959e0" upstream="LA.UM.5.5_rb1.10"/>
-  <project groups="pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="56cac009214f23e16ee8556bf969308d2fd3b90f" upstream="LA.UM.5.5_rb1.10"/>
   <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="876860c1b363c466f50d4179d8ce6791b117ec75" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="017d2e5d65bf66a3923b97054dc930eff42c9ca6" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email" revision="a699f40f9d791d49190d66e5da75177923566e03" upstream="LA.UM.5.5_rb1.10"/>
