@@ -43,6 +43,7 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="yu-aosp-n" groups="pdk" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="yu-aosp-n" />
   <project path="libcore" name="platform_libcore" remote="yu-aosp-n" groups="pdk" />
+  <project path="packages/apps/Bluetooth" path="platform_packages_apps_Bluetooth"  groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote"yu-aosp-n" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="yu-aosp-n" />
@@ -394,7 +395,6 @@
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="ff4323214ea24e67cdbd4a7f2445af48d90da342" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="generic_fs" name="platform/ndk" path="ndk" revision="f255acd92116b49634093282def8801e7b5e3261" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="2be2de8a77c1afd4b23a5fdfb5acf16541c6670f" upstream="LA.UM.5.5_rb1.10"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="a88777885ca191be48c24479a46946733cf39290" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="6a99cd0006d9473c343dda8ae892fba745fa08b3" upstream="LA.UM.5.5_rb1.10"/>
   <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager" revision="a4f09bf0d78746a8262bc7251aeba7b860d2edea" upstream="LA.UM.5.5_rb1.10"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="c45fbd49aaa18e310d2fe1166343160e3d2a86d3" upstream="LA.UM.5.5_rb1.10"/>
