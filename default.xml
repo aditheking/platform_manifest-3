@@ -30,7 +30,7 @@
   <project path="external/okhttp" name="platform_external_okhttp" remote="yu-aosp-n" />
   <project path="external/boringssl" name="platform_external_boringssl" remote="yu-aosp-n" groups="pdk" />
   <project path="external/iproute2" name="platform_external_iproute2" remote="yu-aosp-n" />
-  <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk" remote="yu-asop-n" />
+  <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk" remote="yu-aosp-n" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="yu-aosp-n" groups="pdk" />
   <project path="external/fuse" name="platform_external_fuse" remote="yu-aosp-n" groups="pdk" />
   <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="yu-aosp-n" />
